@@ -27,6 +27,7 @@ header.menu {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        overflow-x: hidden;
     }
     
 header.menu img {
@@ -143,6 +144,10 @@ header.menu .menu_container .menu_description {
         line-height: 1.2;
         text-align: center;
     }
+
+main.main {
+    overflow-x: hidden;
+}
 
 
 main.main section.main_banners {
