@@ -27,7 +27,6 @@ header.menu {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        overflow-x: hidden;
     }
     
 header.menu img {
@@ -55,7 +54,7 @@ header.menu .menu_icon{
         -o-border-radius: 3px;
     }
 
-header .cont-menu {
+.cont-menu {
     width: 300px;
     height: 100vh;
     position: absolute;
@@ -93,7 +92,7 @@ header .cont-menu {
 }
 /* //////JS////// */
     
-header .cont-menu .menu_nav {
+.cont-menu .menu_nav {
         position: absolute;
         top: 0;
         right: 0;
@@ -102,19 +101,19 @@ header .cont-menu .menu_nav {
         list-style: none;
     }
 
-header .cont-menu .menu_nav li {
+.cont-menu .menu_nav li {
     display: block;
     font-size: 18px;
     text-decoration: none;
     padding: 10px 50px;
 }
 
-header .menu_nav a {
+.menu_nav a {
         text-decoration: none;
         color: #d03b40;
     }
 
-header .cont-menu .menu_nav a:hover {
+.cont-menu .menu_nav a:hover {
     background-color: rgb(228, 228, 228);
     color: rgb(42, 42, 42);
 }
@@ -144,10 +143,6 @@ header.menu .menu_container .menu_description {
         line-height: 1.2;
         text-align: center;
     }
-
-main.main {
-    overflow-x: hidden;
-}
 
 
 main.main section.main_banners {
